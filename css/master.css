@@ -473,5 +473,28 @@ body {
   font-weight: bold;
   font-size: .8em;
   color: #000;
+}
 
+.inthe-magazine {
+  border-top: solid 1px #ccc;
+  margin: 15px;
+  margin:
+}
+
+.new-area-div {
+  width: 350px;
+  margin: auto;
+}
+
+.new-area-div h3 {
+  display: inline-block;
+}
+
+.new-area-div .news-logo {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 1.3em;
 }
