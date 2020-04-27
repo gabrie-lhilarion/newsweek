@@ -1,0 +1,390 @@
+
+body,
+html,
+div,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 96%;
+  margin: auto;
+  background-color: white;
+}
+
+.header-medium {
+  background-color: red;
+  display: flex;
+}
+
+.header-large {
+  background-color: orange;
+}
+
+.weather-area-large {
+ padding-top: 5px;
+}
+
+.weather-area-large p {
+  font-size: 0.9em;
+  padding: 1px 0 0 20px;
+  margin: 5px auto;
+  background-color: white;
+}
+
+.weather-date {
+  background-color: #ffc;
+  width: 33.3%;
+}
+
+.main-logo {
+  background-color: #398;
+  width: 33.3%;
+}
+
+.sign-subscribe {
+  background-color: beige;
+  width: 33.3%;
+}
+
+.row.header-medium {
+  display: none;
+}
+
+.sign-subscribe span {
+  float: right;
+}
+
+.subscribe-main {
+  padding: 7px 5px;
+  background-color: #fff;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.sign-in {
+  padding: 5px 5px;
+  color: #fff;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.choose-action {
+  margin-top: 10px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  color: #000;
+}
+
+.navigation {
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 30px;
+}
+
+.navbar {
+background-color: #fff;
+font-weight: bold;
+font-size: 0.9em;
+}
+
+.navbar li input[type=text] {
+  width: 75px;
+  margin-left: 10px;
+}
+
+.top-story-container {
+  background-color: #fff;
+}
+
+.opinion-container {
+  background-color: #fff;
+}
+
+.opinion {
+  display: flex;
+  border-bottom: solid 1px #ccc;
+  margin: 12px auto;
+  background-color: #fff;
+}
+
+.opinion .opinion-details {
+  width: 80%;
+
+}
+
+.top-story-heading {
+  padding: 6px 0 4px 0;
+  font-size: 1.6em;
+  line-height: 25px;
+}
+
+.opinion h4 {
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #fff;
+  line-height: 20px;
+}
+
+.opinion p {
+  text-transform: uppercase;
+  color: #777;
+  padding-bottom: 10px;
+}
+
+.opinion-image {
+  width: 20%;
+}
+
+.image-wrap {
+  position: relative;
+}
+
+.image-wrap p {
+  width: 80px;
+  background-color: #ccc;
+  height: 45px;
+  color: red;
+  position: absolute;
+  bottom: -16px;
+  left: 0px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.image-wrap img {
+  width: 100%;
+}
+
+.featured-stories h3 {
+  padding: 9px 0px 3px 0;
+  font-size: 1.5em;
+  line-height: 23px;
+}
+
+.featured-stories-container {
+  background-color: #fff;
+}
+
+body {
+  background-color: lavender;
+}
+
+.p-hero{
+  position: relative;
+}
+
+.p-hero span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 6px;
+  background-color: whitesmoke;
+  font-size: .7em;
+}
+
+.p-hero img {
+  width: 100%;
+}
+
+.pandemic-heroes {
+  margin-top: 35px;
+}
+
+.pandemic-heroes h2 {
+  color:#888;
+  font-size: 1.2em;
+  margin-bottom: 2px;
+}
+
+.hero-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.hero-description {
+  text-align: left;
+  color: #888;
+}
+
+.more-stories-wrap h3 {
+  font-size: 1.2em;
+  padding-top: 15px;
+}
+
+
+.more-stories-wrap .col-md-9 {
+  margin: 0;
+  padding: 0 0 0 15px;
+  background: none;
+}
+
+.more-stories-wrap .col-md-9 p {
+  text-align: justify;
+}
+
+.more-stories img {
+  width: 100%;
+}
+
+.more-stories .col-md-3 {
+  margin: 20px auto 20px 0;
+  padding: 0;        
+  background: none;
+}
+
+.more-stories {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #999;
+}
+.main-logo svg {
+  fill: white;
+}
+
+.debate-heading {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 1.2em;
+  margin: 30px auto 12px 0;
+}
+
+.first-row {
+  border-top: solid 3px #f42;
+  border-bottom: 1px solid #ccc;
+}
+
+.debate-image-wrap img {
+  width: 100%;
+}
+
+.debate .col-md-3,
+.debate .col-md-9 {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+} 
+
+.debate h4 {
+  margin: 20px 20px 0 15px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  height: 100px;
+}
+
+._my-circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  line-height: 45px;
+  position: absolute;
+  bottom: 1px;
+  left: 10px;
+}
+
+.nigel {
+  height: auto;
+  border-top: 1px solid #ccc;
+  margin-top: 3px;
+}
+
+.nigel strong {
+  font-size: 0.8em;
+}
+
+.nigel i {
+  font-size: 0.8em;
+}
+
+.nigel-farage div {
+  min-height: 120px;
+}
+
+.nigel img {
+  position: absolute;
+  top: -13px;
+  right: 10px;
+  width: 55px;
+}
+
+.row.nigel > div,
+.debate > div {
+  background-color: #fff;;
+}
+
+.metzl {
+  border-top: 1px solid #ccc;
+  margin-top: 3px;
+}
+
+.another_ {
+  margin-top: 20px;
+}
+
+.nigel-last .col-md-5,
+.nigel-last .col-md-2
+{
+  height: 60px;
+  background-color: none;
+}
+
+.row.nigel.nigel-last {
+  height: 50px;
+}
+
+.latest-news {
+  padding-top: 20px;
+
+}
+
+.latest-news h5{
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+.latest-news .col-md-2 {
+  padding: 0;
+  margin: 0 0 0 15px;
+}
+
+.latest-news-heading {
+  height: auto;
+  font-size: medium;
+  color: #888;
+  padding: 10px auto 20px 0;
+  margin-bottom: 10px;
+}
+
+.latest-news-image-wrap img {
+  width: 100%;
+}
+
+.latest-news article {
+  border-top: 1px solid #ccc;
+  margin: 10px 0px;
+  padding: 10px 0;
+}
+
+
+
