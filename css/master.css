@@ -246,7 +246,7 @@ body {
 
 .more-stories .col-md-3 {
   margin: 20px auto 20px 0;
-  padding: 0;        
+  padding: 0;
   background: none;
 }
 
@@ -280,7 +280,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fff;
-} 
+}
 
 .debate h4 {
   margin: 20px 20px 0 15px;
@@ -386,5 +386,92 @@ body {
   padding: 10px 0;
 }
 
+.sponsored-insight {
+  border: solid 1px #ccc;
+  margin-bottom: 30px;
+}
 
+.sponsored-insight-img-wrap img {
+  width: 100%;
+  position: relative;
+}
 
+.sponsored-insight-img-wrap {
+  position: relative;
+}
+
+.sponsored-label {
+  position: absolute;
+  background-color: #fff;
+  padding: 8px;
+  left: 0;
+  bottom: 0;
+  color: #389;
+}
+
+.sponsored-insight-details {
+  padding: 13px;
+}
+
+.sponsored-insight-details h4 {
+  font-weight: bolder;
+  font-size: 1.4em;
+  margin: 8px 0;
+}
+
+.sponsored-insight-details p {
+  color: #777;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.icon-plus-info span {
+  display: inline-block;
+}
+
+.news-letter-wrap {
+  padding: 30px;
+}
+
+.news-letter {
+  background-color: lavender;
+  padding: 30px;
+}
+
+.news-logo {
+  width: 35px;
+  height: 35px;
+  background-color: #f42;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 35px;
+}
+
+.news-logo-text {
+  line-height: 19px;
+  font-size: 1em;
+  font-weight: bolder;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.sign-up-btn-cont {
+  padding-top: 20px;
+}
+
+.sign-button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 17px;
+}
+
+.update-pref {
+  font-weight: bold;
+  font-size: .8em;
+  color: #000;
+
+}
