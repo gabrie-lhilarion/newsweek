@@ -27,7 +27,7 @@ h6 {
 }
 
 .header-large {
-  background-color: orange;
+  background-color: red;
 }
 
 .weather-area-large {
@@ -38,21 +38,18 @@ h6 {
   font-size: 0.9em;
   padding: 1px 0 0 20px;
   margin: 5px auto;
-  background-color: white;
+  color: #fff;
 }
 
 .weather-date {
-  background-color: #ffc;
   width: 33.3%;
 }
 
 .main-logo {
-  background-color: #398;
   width: 33.3%;
 }
 
 .sign-subscribe {
-  background-color: beige;
   width: 33.3%;
 }
 
@@ -478,7 +475,6 @@ body {
 .inthe-magazine {
   border-top: solid 1px #ccc;
   margin: 15px;
-  margin:
 }
 
 .new-area-div {
@@ -539,5 +535,14 @@ body {
 .heading-txt {
   font-weight: bolder;
   font-size: 1.2em;
-  line-height: 18px;
+  line-height: 19px;
+  padding-bottom: 12px;
+}
+
+.editorspick {
+  margin: 15px;
+}
+
+.editor-image img {
+  width: 100%;
 }
