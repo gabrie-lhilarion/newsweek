@@ -509,14 +509,35 @@ body {
 
 .red-padding {
   background-color: red;
-  padding: 8px;
+  padding: 6px;
   color: white;
 }
 
 .features-type {
   color: red;
+  padding: 15px 0 15px 0;
+  font-weight: bold;
 }
 
-.image-area img {
-  width: 100%;
+.in-magazine-wrap .image-area img {
+  width: 150%;
+  margin-left: -65px
+
+}
+
+.image-area {
+  position: relative;
+  overflow: hidden;
+}
+
+.first-txtx {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heading-txt {
+  font-weight: bolder;
+  font-size: 1.2em;
+  line-height: 18px;
 }
