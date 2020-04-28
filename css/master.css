@@ -498,3 +498,25 @@ body {
   line-height: 25px;
   font-size: 1.3em;
 }
+
+.inthe-magazine {
+  padding-top: 20px;
+}
+
+.in-magazine-wrap {
+  padding-top: 20px;
+}
+
+.red-padding {
+  background-color: red;
+  padding: 8px;
+  color: white;
+}
+
+.features-type {
+  color: red;
+}
+
+.image-area img {
+  width: 100%;
+}
