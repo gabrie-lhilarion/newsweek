@@ -1980,6 +1980,15 @@ pre code {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .btn-logo,
+  .and-copy {
+    display: block;
+    padding: 5px 0;
+  }
+  .Social-Icons span {
+    padding-top: 20px;
+    float:left;
+  }
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
@@ -2473,6 +2482,20 @@ textarea.form-control {
     justify-content: center;
     margin-bottom: 0;
   }
+
+
+  .btn-logo {
+    display: inline-block;
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .and-copy {
+    display: inline-block;
+    position: relative;
+  }
+
+
   .form-inline .form-group {
     display: -ms-flexbox;
     display: flex;

@@ -419,20 +419,21 @@ img:hover {
 }
 
 .first-row {
+  display: flex;
   border-top: solid 3px #f42;
   border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
-.debate-image-wrap img {
+.d-images {
+  width: 200px;
+}
+
+.debate img {
   width: 100%;
+  height: auto;
 }
 
-.debate .col-md-3,
-.debate .col-md-9 {
-  padding: 0;
-  margin: 0;
-  background-color: #fff;
-}
 
 .debate h4 {
   margin: 20px 20px 0 15px;
@@ -450,56 +451,68 @@ img:hover {
   background-color: #000;
   text-align: center;
   line-height: 45px;
+  cursor: pointer;
+  margin: auto;
 }
 
-.nigel {
-  height: auto;
-  border-top: 1px solid #ccc;
+.div-two {
+  display: flex;
+  border-top: solid 3px blue;
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+.div-two strong {
+  width: 90%;
+}
+
+.div-two img {
+  width: 120px;
+  margin: 0 20px 0 0;
+}
+
+.nigel-farage {
+  position: relative;
   margin-top: 3px;
+  border-top: 1px solid #ccc;
+  height: 100px;
 }
 
-.nigel strong {
-  font-size: 0.8em;
+.-the-middle {
+  position: relative;
+  display: flex;
+  border-top: 3px solid blue;
+  border-bottom: 1px solid #ccc;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
-.nigel i {
-  font-size: 0.8em;
+.j-image {
+  width: 150px;
 }
 
-.nigel-farage div {
-  min-height: 120px;
+.-the-middle img {
+  width: 100%;
 }
 
-.nigel img {
+.-image-2 {
+  position: relative;
+}
+
+.Jamie-Metzl {
+  border-top: solid 1px #ccc;
+  height: 100px;
+}
+
+.-image-2 img {
   position: absolute;
-  top: -13px;
+  width: 90px;
   right: 10px;
-  width: 55px;
-}
-
-.row.nigel > div,
-.debate > div {
-  background-color: #fff;;
-}
-
-.metzl {
-  border-top: 1px solid #ccc;
-  margin-top: 3px;
+  top: -38px;
 }
 
 .another_ {
   margin-top: 20px;
-}
-
-.nigel-last .col-md-5,
-.nigel-last .col-md-2
-{
-  height: 60px;
-  background-color: none;
-}
-
-.row.nigel.nigel-last {
-  height: 50px;
 }
 
 .latest-news {
@@ -917,20 +930,11 @@ img:hover {
 
 }
 
-.btn-logo {
-  display: inline-block;
-  width: 200px;
-  padding-left: 0;
-}
 
 .btn-logo svg {
   fill: red;
 }
 
-.and-copy {
-  display: inline-block;
-  position: relative;
-}
 
 .and-copy p {
   position: absolute;
