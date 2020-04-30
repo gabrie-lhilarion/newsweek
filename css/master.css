@@ -110,12 +110,19 @@ a:hover {
   float: right;
 }
 
+.bMenu {
+  color: #fff;
+  padding: 3px 5px;
+  font-weight: bolder;
+  margin: 18px 10px 10px 10px;
+}
+
 .subscribe-main {
   padding: 3px 5px;
   background-color: #fff;
   color: #f42;
   font-weight: bold;
-  margin: 18px 10px 10px 10px;
+  margin: 18px 10px 10px 0;
   text-transform: uppercase;
 }
 
@@ -162,7 +169,6 @@ a:hover {
   content: "";
   display: block;
   width: 100px;
-  background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
 }
@@ -173,12 +179,18 @@ a:hover {
   max-width: 90%;
   height: 50px;
   line-height: 45px;
+  background-color: #fff;
+}
+
+.position-relative {
+  background-color: #fff;
 }
 
 .vavigation-bar ul {
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
+  background-color: #fff;
 }
 
 
@@ -514,38 +526,36 @@ img:hover {
 .another_ {
   margin-top: 20px;
 }
-
-.latest-news {
-  padding-top: 20px;
-
+.latest-news-tx {
+  color: #000;
 }
 
-.latest-news h5{
-  text-transform: capitalize;
-  font-size: 1em;
-  width: 90%;
-}
 
 .latest-news .col-md-9{
   margin: 0;
   padding: 0;
 }
 
-.latest-news .col-md-2 {
-  padding: 0;
-  margin: 0 0 0 15px;
-}
-
 .latest-news-heading {
-  height: 45px;;
   font-size: 1.2em;
   color: #888;
   padding: 10px auto 20px 0;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 .latest-news-image-wrap {
-  width: 120px;
+  width: 240px;
+}
+
+
+.latest-news-image-wrap img {
+  width: 100%;
+}
+
+.latest-news-tx {
+  font-size: 1em;
+  line-height: 18px;
+  padding-left: 15px;
 }
 
 .debate-container {
@@ -555,12 +565,6 @@ img:hover {
 .div-one {
   border-bottom: solid 1px #ccc;
   margin-bottom: 2px;
-}
-
-.nigel-farage {
-    display: flex;
-    border-top: solid 1px #ccc;
-    position: relative;
 }
 
 .div-one {
@@ -589,9 +593,8 @@ img:hover {
   float: left;
 }
 
-.latest-news-image-wrap img {
-  width: 100%;
-  float: left;
+.row-latest {
+  display: flex;
 }
 
 .latest-news article {
@@ -803,6 +806,7 @@ img:hover {
   font-size: 1.4em;
   margin: 5px 0;
   line-height: 22px;
+  margin-bottom: 25px;
 }
 
 .image-world img {
@@ -811,6 +815,10 @@ img:hover {
 
 .clearboth {
   clear: both;
+}
+
+.small-aside {
+  padding-top: 5px;
 }
 
 .small-aside h3 {
@@ -1009,4 +1017,69 @@ float: right;
 
 .bottom-navs ul.nav-bar {
   padding: 0;
+}
+
+.the-top-story-hidden {
+  display: none;
+}
+
+.navigation {
+  background-color: #fff;
+}
+
+  .header-medium {
+    display: none;
+  }
+
+@media (max-width: 992px){
+  .header-large,
+  .navigation {
+    display: none;
+  }
+  .header-medium {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+   .small-w-location,
+   .varti-bar {
+     display: none;
+   }
+
+   .Social-Icons span {
+     float: left;
+     padding-top: 15px;
+   }
+
+   .and-copy {
+     display: block;
+     padding-top: 10px;
+   }
+
+   .news-letter-txt,
+   .subscribe-talk {
+     text-align: center;
+   }
+
+   .image-subscribe {
+     height: 300px
+   }
+
+   .subscribe-image-1 {
+     position: absolute;
+     left: 40px;
+   }
+
+   .subscribe-image-2 {
+     position: absolute;
+     left: 120px;
+   }
+
+}
+
+@media only screen and (max-width: 768px) {
+   .the-top-story-hidden {
+     display: block;
+   }
 }
