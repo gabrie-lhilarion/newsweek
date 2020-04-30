@@ -15,9 +15,13 @@ h6 {
   margin: 0;
 }
 
-.wrapper-container {
+body {
   background-color: #f4f5f6;
-  max-width: 1400px;
+}
+
+.wrapper-container {
+  background-color: #fff;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -539,7 +543,7 @@ img:hover {
 .latest-news-heading {
   font-size: 1.2em;
   color: #888;
-  padding: 10px auto 20px 0;
+  padding: 10px 0 20px 0;
   margin-bottom: 1px;
 }
 
@@ -695,7 +699,7 @@ img:hover {
 
 .inthe-magazine {
   border-top: solid 1px #ccc;
-  margin: 15px 15px 0 15px;hero-title
+  margin: 15px 15px 0 15px; 
   padding-bottom: 20px;
 }
 
