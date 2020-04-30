@@ -699,13 +699,13 @@ img:hover {
 
 .inthe-magazine {
   border-top: solid 1px #ccc;
-  margin: 15px 15px 0 15px; 
+  margin: 15px 15px 0 15px;
   padding-bottom: 20px;
 }
 
 .new-area-div {
   width: 200px;
-  margin: auto;
+  margin: 20px auto;
   font-weight: bold;
 }
 
@@ -857,12 +857,14 @@ img:hover {
 }
 
 .subscribe-image-1 {
-
+  position: absolute;
+  left: 30px;
+  top: 20px;
 }
 
 .subscribe-image-2 {
   position: absolute;
-  left: 70px;
+  left: 90px;
   top: 30px;
 }
 
@@ -936,17 +938,12 @@ img:hover {
   background-image: url(../images/newsletter.png);
   min-height: 260px;
   background-repeat: no-repeat;
+  background-position: center;
 }
-
-.news-letter-txt {
-
-}
-
 
 .btn-logo svg {
   fill: red;
 }
-
 
 .and-copy p {
   position: absolute;
@@ -1031,7 +1028,12 @@ float: right;
   background-color: #fff;
 }
 
-  .header-medium {
+.news-letter-txt {
+  font-size: 0.9em;
+  padding-left: 20px;
+}
+
+.header-medium {
     display: none;
   }
 
@@ -1042,6 +1044,15 @@ float: right;
   }
   .header-medium {
     display: block;
+  }
+
+  .btn-logo {
+    display: inline;
+  }
+
+  .and-copy {
+    display: inline-block;
+    padding-top: 10px;
   }
 }
 
@@ -1054,6 +1065,13 @@ float: right;
    .Social-Icons span {
      float: left;
      padding-top: 15px;
+   }
+   .btn-logo {
+     width: 100px;
+   }
+
+   .btn-logo svg {
+     width: 200px;
    }
 
    .and-copy {
