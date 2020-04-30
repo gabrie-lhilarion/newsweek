@@ -546,7 +546,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 10px
 }
 
 @media (min-width: 576px) {
@@ -559,6 +559,8 @@ pre code {
   .container {
     max-width: 720px;
   }
+
+
 }
 
 @media (min-width: 992px) {
@@ -1993,6 +1995,9 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  .small-w-location {
+    display: none;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2007,6 +2012,12 @@ pre code {
   }
   .container-fluid.navigation {
     display: none;
+  }
+  .header-large {
+    display: none;
+  }
+  .header-medium {
+    display: block;
   }
 }
 
@@ -3279,6 +3290,7 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -4240,7 +4252,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4425,9 +4437,9 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+
 }
 
-@media (min-width: 576px) {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4466,6 +4478,25 @@ input[type="button"].btn-block {
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .the-top-story-hidden {
+    display: none;
+  }
+  .the-top-story {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .the-top-story-hidden {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .the-top-story {
+    display: none;
   }
 }
 
@@ -4509,9 +4540,29 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+
+  .header-medium {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
+  .wrapper {
+      width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
+  .header-medium {
+    display: none;
+  }
+
+  .wrapper {
+    width: 96%;
+    margin: auto;
+    background-color: white;
+  }
+
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
