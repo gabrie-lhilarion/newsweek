@@ -4,7 +4,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-This project specifies to build an exact replica of Newsweek.com using the Bootstrap framework. It is not to use Javascript in this project or to add interactivity.
+This project specifies to build an exact replica of Newsweek.com using the Bootstrap framework. It is not required to use Javascript in this project or to add interactivity.
 
 ## Built With
 
@@ -34,9 +34,9 @@ To use it locally, you need to :
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/gabrie-lhilarion)
-- Twitter: [@twitterhandle](https://twitter.com/gabrielDeman)
-- Linkedin: [linkedin](https://linkedin.com/gabrielhilarion)
+- Github: [@gabrie-lhilarion](https://github.com/gabrie-lhilarion)
+- Twitter: [@gabrielDeman](https://twitter.com/gabrielDeman)
+- Linkedin: [gabrielhilarion](https://linkedin.com/gabrielhilarion)
 
 
 ## 🤝 Contributing
@@ -53,6 +53,7 @@ Give a ⭐️ if you like this project!
 -  newsweek.com
 -  The odin project
 -  Microverse
+-  Getboostrap.com
 
 
 ## 📝 License
