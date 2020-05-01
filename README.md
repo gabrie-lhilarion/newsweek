@@ -1,41 +1,32 @@
 # Project Name
 
-> One paragraph statement about the project.
+ A realistic clone of the Newsweek Homepage
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This project specifies to build an exact replica of Newsweek.com using the Bootstrap framework. It is not to use Javascript in this project or to add interactivity.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5,
+- CSS3,
+- BOOTSTRAP
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://wizardly-leakey-4367fc.netlify.app/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
+To use it locally, you need to :
 
-To get a local copy up and running follow these simple example steps.
+*  Fork the repository to your GitHub account.
+*  Choose a local folder for the cloned files.
+*  Clone the repository to your local machine.
+*  Double click on 'index.html'.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
@@ -43,31 +34,26 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/gabrie-lhilarion)
+- Twitter: [@twitterhandle](https://twitter.com/gabrielDeman)
+- Linkedin: [linkedin](https://linkedin.com/gabrielhilarion)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/gabrie-lhilarion/newsweek/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+-  newsweek.com
+-  The odin project
+-  Microverse
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
