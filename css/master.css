@@ -945,36 +945,36 @@ img:hover {
   fill: red;
 }
 
-.and-copy p {
-  position: absolute;
-  bottom: -15px;
-  width: 240px;
+.logo-real {
+  width: 200px;
+}
+
+.and-copy {
+  position: relative;
   text-transform: uppercase;
   font-weight: lighter;
   font-size: .8em;
 }
 
+.and-copy span {
+  position: absolute;
+  bottom: -15px;
+  width: 200px;
+}
+
 .logo-btm {
+  display: flex;
+  justify-content: space-between;
   padding-top: 30px;
+  padding-left: 47px;
   border-top: solid 1px #ccc;
   background-color: #fff;
-  width: 96%;
-  margin: auto;
-}
-
-.logo-btm .row {
-  border-bottom: solid 1px #ccc;
-  padding-bottom: 10px;
   width: 100%;
-  margin: auto;
+  align-content: flex-end;
 }
 
-.logo-btm .col {
-  padding-left: 0;
-}
-
-.Social-Icons img {
-float: right;
+.btn-logo p {
+  display: inline-block;
 }
 
 .bottom-navs {
@@ -1046,37 +1046,12 @@ float: right;
     display: block;
   }
 
-  .btn-logo {
-    display: inline;
-  }
-
-  .and-copy {
-    display: inline-block;
-    padding-top: 10px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
    .small-w-location,
    .varti-bar {
      display: none;
-   }
-
-   .Social-Icons span {
-     float: left;
-     padding-top: 15px;
-   }
-   .btn-logo {
-     width: 100px;
-   }
-
-   .btn-logo svg {
-     width: 200px;
-   }
-
-   .and-copy {
-     display: block;
-     padding-top: 10px;
    }
 
    .news-letter-txt,
@@ -1104,4 +1079,21 @@ float: right;
    .the-top-story-hidden {
      display: block;
    }
+
+
+     .logo-btm {
+       display: block;
+       padding-left: 30px;
+     }
+
+     .btn-logo p {
+       display: block;
+       height: 21px;
+     }
+
+     .Social-images {
+       margin-top: 20px;
+     }
+
+
 }
