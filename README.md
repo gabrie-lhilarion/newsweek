@@ -1,4 +1,4 @@
-# Project Name
+# Newsweek Homepage
 
  A realistic clone of the Newsweek Homepage
 
